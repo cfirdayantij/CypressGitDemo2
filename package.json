@@ -1,0 +1,6 @@
+{
+    "devDependencies": {
+        "cypress": "^3.4.1",
+        "cypress-dark": "^1.7.10"
+    }
+}
