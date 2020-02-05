@@ -44,7 +44,7 @@ context('Actions', () => {
     // https://on.cypress.io/blur
     cy.get('.action-blur').type('About to blur').blur()
       .should('have.class', 'error')
-      .prev().should('have.attr', 'style', 'color: red;')
+      .prev().should('have.attr', 'style', 'color: orange;')
   })
 
   it('.clear() - clears an input or textarea element', () => {
